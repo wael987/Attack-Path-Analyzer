@@ -1,0 +1,28 @@
+ATTACK PATH ANALYSIS - SYNTHETIC FIVE-HOST DATASET
+==========================================================
+Hosts (nodes): 5
+Possible exploit transitions (edges): 7
+Entry point: H1
+Critical asset: H5
+
+Top 3 ranked paths:
+
+1. H1 -> H4 -> H5
+   Risk score: 26.25/100 (Medium)
+   Status: Hypothetical
+   Vulnerabilities: V-104, V-105
+   Hops: 2
+
+2. H1 -> H2 -> H3 -> H5
+   Risk score: 15.48/100 (Low)
+   Status: Hypothetical
+   Vulnerabilities: V-101, V-102, V-103
+   Hops: 3
+
+3. H1 -> H2 -> H4 -> H5
+   Risk score: 12.90/100 (Low)
+   Status: Hypothetical
+   Vulnerabilities: V-101, V-106, V-105
+   Hops: 3
+
+Note: sample findings are synthetic and every sample path is hypothetical.

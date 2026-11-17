@@ -1,0 +1,5 @@
+﻿source_host,target_host,relationship,reachable,exploitable,evidence
+H1,H2,network_reachability,true,not_verified,ping_and_nmap
+H1,H3,network_reachability,true,not_verified,ping_and_nmap
+H2,H1,network_reachability,true,not_verified,ping
+H2,H3,network_reachability,true,not_verified,ping

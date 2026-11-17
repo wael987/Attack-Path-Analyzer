@@ -1,0 +1,4 @@
+﻿host_id,hostname,ip_address,role,criticality
+H1,Kali Linux,192.168.75.10,scanner,low
+H2,Metasploitable 2,192.168.75.20,vulnerable_target,medium
+H3,Ubuntu DB,192.168.75.30,critical_database,high
